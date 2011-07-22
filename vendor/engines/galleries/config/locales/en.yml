@@ -1,0 +1,65 @@
+---
+en:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    images:
+      title: Images
+    sections:
+      title: Sections
+    galleries:
+      title: Galleries
+  admin:
+    images:
+      actions:
+        create_new: Add New Image
+        reorder: Reorder Images
+        reorder_done: Done Reordering Images
+      records:
+        title: Images
+        sorry_no_results: Sorry! There are no results found.
+        no_items_yet: There are no Images yet. Click "Add New Image" to add your first
+          image.
+      image:
+        view_live_html: View this image live <br/><em>(opens in a new window)</em>
+        edit: Edit this image
+        delete: Remove this image forever
+    sections:
+      actions:
+        create_new: Add New Section
+        reorder: Reorder Sections
+        reorder_done: Done Reordering Sections
+      records:
+        title: Sections
+        sorry_no_results: Sorry! There are no results found.
+        no_items_yet: There are no Sections yet. Click "Add New Section" to add your
+          first section.
+      section:
+        view_live_html: View this section live <br/><em>(opens in a new window)</em>
+        edit: Edit this section
+        delete: Remove this section forever
+    galleries:
+      actions:
+        create_new: Add New Gallery
+        reorder: Reorder Galleries
+        reorder_done: Done Reordering Galleries
+      records:
+        title: Galleries
+        sorry_no_results: Sorry! There are no results found.
+        no_items_yet: There are no Galleries yet. Click "Add New Gallery" to add your
+          first gallery.
+      gallery:
+        view_live_html: View this gallery live <br/><em>(opens in a new window)</em>
+        edit: Edit this gallery
+        delete: Remove this gallery forever
+  images:
+    show:
+      other: Other Images
+  sections:
+    show:
+      other: Other Sections
+  galleries:
+    show:
+      other: Other Galleries

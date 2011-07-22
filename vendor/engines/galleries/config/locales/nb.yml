@@ -1,0 +1,64 @@
+---
+nb:
+  plugins:
+    images:
+      title: Images
+    sections:
+      title: Sections
+    galleries:
+      title: Galleries
+  admin:
+    images:
+      actions:
+        create_new: Lag en ny Image
+        reorder: Endre rekkefølgen på Images
+        reorder_done: Ferdig å endre rekkefølgen Images
+      records:
+        title: Images
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Images enda. Klikk på "Lag en ny Image" for å legge
+          til din første image.
+      image:
+        view_live_html: Vis hvordan denne image ser ut offentlig <br/><em>(åpner i
+          et nytt vindu)</em>
+        edit: Rediger denne image
+        delete: Fjern denne image permanent
+    sections:
+      actions:
+        create_new: Lag en ny Section
+        reorder: Endre rekkefølgen på Sections
+        reorder_done: Ferdig å endre rekkefølgen Sections
+      records:
+        title: Sections
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Sections enda. Klikk på "Lag en ny Section" for
+          å legge til din første section.
+      section:
+        view_live_html: Vis hvordan denne section ser ut offentlig <br/><em>(åpner
+          i et nytt vindu)</em>
+        edit: Rediger denne section
+        delete: Fjern denne section permanent
+    galleries:
+      actions:
+        create_new: Lag en ny Gallery
+        reorder: Endre rekkefølgen på Galleries
+        reorder_done: Ferdig å endre rekkefølgen Galleries
+      records:
+        title: Galleries
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Galleries enda. Klikk på "Lag en ny Gallery" for
+          å legge til din første gallery.
+      gallery:
+        view_live_html: Vis hvordan denne gallery ser ut offentlig <br/><em>(åpner
+          i et nytt vindu)</em>
+        edit: Rediger denne gallery
+        delete: Fjern denne gallery permanent
+  images:
+    show:
+      other: Andre Images
+  sections:
+    show:
+      other: Andre Sections
+  galleries:
+    show:
+      other: Andre Galleries

@@ -1,0 +1,65 @@
+---
+fr:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    images:
+      title: Images
+    sections:
+      title: Sections
+    galleries:
+      title: Galleries
+  admin:
+    images:
+      actions:
+        create_new: Créer un(e) nouve(au/l/lle) Image
+        reorder: Réordonner les Images
+        reorder_done: Fin de réordonnancement des Images
+      records:
+        title: Images
+        sorry_no_results: Désolé ! Aucun résultat.
+        no_items_yet: Il n'y a actuellement aucun(e) Image. Cliquer sur "Créer un(e)
+          nouve(au/l/lle) Image" pour créer votre premi(er/ère) image.
+      image:
+        view_live_html: Voir ce(t/tte) image <br/><em>(Ouvre une nouvelle fenêtre)</em>
+        edit: Modifier ce(t/tte) image
+        delete: Supprimer définitivement ce(t/tte) image
+    sections:
+      actions:
+        create_new: Créer un(e) nouve(au/l/lle) Section
+        reorder: Réordonner les Sections
+        reorder_done: Fin de réordonnancement des Sections
+      records:
+        title: Sections
+        sorry_no_results: Désolé ! Aucun résultat.
+        no_items_yet: Il n'y a actuellement aucun(e) Section. Cliquer sur "Créer un(e)
+          nouve(au/l/lle) Section" pour créer votre premi(er/ère) section.
+      section:
+        view_live_html: Voir ce(t/tte) section <br/><em>(Ouvre une nouvelle fenêtre)</em>
+        edit: Modifier ce(t/tte) section
+        delete: Supprimer définitivement ce(t/tte) section
+    galleries:
+      actions:
+        create_new: Créer un(e) nouve(au/l/lle) Gallery
+        reorder: Réordonner les Galleries
+        reorder_done: Fin de réordonnancement des Galleries
+      records:
+        title: Galleries
+        sorry_no_results: Désolé ! Aucun résultat.
+        no_items_yet: Il n'y a actuellement aucun(e) Gallery. Cliquer sur "Créer un(e)
+          nouve(au/l/lle) Gallery" pour créer votre premi(er/ère) gallery.
+      gallery:
+        view_live_html: Voir ce(t/tte) gallery <br/><em>(Ouvre une nouvelle fenêtre)</em>
+        edit: Modifier ce(t/tte) gallery
+        delete: Supprimer définitivement ce(t/tte) gallery
+  images:
+    show:
+      other: Autres Images
+  sections:
+    show:
+      other: Autres Sections
+  galleries:
+    show:
+      other: Autres Galleries
