@@ -1,0 +1,15 @@
+= content_for :stylesheets do
+  = stylesheet_link_tag('refinerycms-gallery')
+
+%ul#submenu
+  %li
+    =link_to t('.sections'), admin_gallery_sections_path, :class => controller.class.name =~ /SectionsController/ ? 'active' : 'inactive'
+  %li
+    =link_to t('.entries'), admin_gallery_entries_path, :class => controller.class.name =~ /EntriesController/ ? 'active' : 'inactive'
+.clearfix
+
+= content_for :javascripts do
+  :javascript
+    jQuery(function($) {
+      //$("#submenu").tabs();
+    });

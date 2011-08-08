@@ -1,0 +1,24 @@
+---
+nb:
+  plugins:
+    gallery_entries:
+      title: Gallery Entries
+  admin:
+    gallery_entries:
+      actions:
+        create_new: Lag en ny Gallery Entry
+        reorder: Endre rekkefølgen på Gallery Entries
+        reorder_done: Ferdig å endre rekkefølgen Gallery Entries
+      records:
+        title: Gallery Entries
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Gallery Entries enda. Klikk på "Lag en ny Gallery
+          Entry" for å legge til din første gallery entry.
+      gallery_entry:
+        view_live_html: Vis hvordan denne gallery entry ser ut offentlig <br/><em>(åpner
+          i et nytt vindu)</em>
+        edit: Rediger denne gallery entry
+        delete: Fjern denne gallery entry permanent
+  gallery_entries:
+    show:
+      other: Andre Gallery Entries

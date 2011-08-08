@@ -1,0 +1,27 @@
+---
+lolcat:
+  shared:
+    admin:
+      image_picker:
+        image: IMAGE
+  plugins:
+    gallery_entries:
+      title: Gallery Entries
+  admin:
+    gallery_entries:
+      actions:
+        create_new: CREATE NEW Gallery Entry
+        reorder: REORDR Gallery Entries
+        reorder_done: DUN REORDERIN Gallery Entries
+      records:
+        title: Gallery Entries
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+        no_items_yet: THAR R NO Gallery Entries YET. CLICK "CREATE NEW Gallery Entry"
+          2 ADD UR FURST gallery entry.
+      gallery_entry:
+        view_live_html: VIEW DIS gallery entry LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+        edit: EDIT DIS gallery entry
+        delete: REMOOV DIS gallery entry FOREVR
+  gallery_entries:
+    show:
+      other: OTHR Gallery Entries

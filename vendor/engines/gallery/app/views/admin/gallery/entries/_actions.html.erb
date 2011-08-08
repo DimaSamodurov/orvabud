@@ -1,0 +1,14 @@
+<ul>
+  <li>
+    <%= link_to t('.reorder', :what => "Gallery Entries"),
+                 admin_gallery_entries_path,
+                 :id => "reorder_action",
+                 :class => "reorder_icon" %>
+
+    <%= link_to t('.reorder_done', :what => "Gallery Entries"),
+                 admin_gallery_entries_path,
+                 :id => "reorder_action_done",
+                 :style => "display: none;",
+                 :class => "reorder_icon" %>
+  </li>
+</ul>

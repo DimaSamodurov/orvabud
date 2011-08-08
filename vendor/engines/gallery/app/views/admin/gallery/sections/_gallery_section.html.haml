@@ -1,0 +1,14 @@
+%li{:class => 'clearfix record #{cycle("on", "on-hover")}', :id => dom_id(gallery_section)}
+  .title
+    = link_to gallery_section.name, admin_gallery_entries_path(:gallery_section_id => gallery_section.id.to_s),
+      :title => t('.view_live_html')
+    .preview &nbsp;
+
+  .actions
+    = link_to refinery_icon_tag("application_edit.png"), edit_admin_gallery_section_path(gallery_section),
+         :title => t('.edit')
+    = link_to refinery_icon_tag("delete.png"), admin_gallery_section_path(gallery_section),
+        :class => "cancel confirm-delete",
+        :title => t('.delete'),
+        :confirm => t('message', :scope => 'shared.admin.delete', :title => gallery_section.name),
+        :method => :delete 

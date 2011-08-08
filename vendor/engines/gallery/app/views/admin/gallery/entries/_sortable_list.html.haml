@@ -1,0 +1,7 @@
+%ul#sortable_list
+  - @sections.each do |section|
+    %h2= section.name
+    = render :partial => 'gallery_entry', :collection => section.gallery_entries.sort{|a,b|a.position <=> b.position}, :locals => {:section => section}
+    = link_to t('.new'), new_admin_gallery_entry_path(:gallery_section_id => section.id), :class => "add_icon button"
+= render :partial => "/shared/admin/sortable_list",
+            :locals => {:continue_reordering => (local_assigns.keys.include?(:continue_reordering)) ? continue_reordering : true}

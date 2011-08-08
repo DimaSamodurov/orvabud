@@ -1,0 +1,61 @@
+ru:
+  shared:
+    admin:
+      image_picker:
+        image: image
+
+  plugins:
+    refinerycms_gallery:
+      title: Галерея
+
+  admin:
+    gallery:
+      entries:
+        actions:
+          manage: Редактировать изображения
+          new: Добавить изображение
+          reorder: Сортировать
+          reorder_done: Завершить сортировку
+          sections:
+            title: Секции
+            manage: Редактировать секции
+            new: Создать новую секцию
+          settings:
+            title: Настройки
+            moderation: Модерирование
+            update_notified: Настроить уведомления
+            comments: Комментарии
+        form:
+          advanced_options: Дополнительные настройки
+          toggle_advanced_options: 'Нажмите, чтобы получить доступ к настройкам мета-тегов и меню'
+          save_as_draft: Сохранить как черновик
+          published_at: Дата публикации
+        index:
+          no_items_yet: 'Записи в блоге отстутствуют. Нажмите "%{create}", чтобы добавить первую запись.'
+        uncategorized:
+          no_items_yet: 'Записи вне секций отсутствуют.'
+        entry:
+          view_live_html: Посмотреть запись на сайте <br/><em>(откроется в новом окне)</em>
+          edit: Редактировать запись
+          delete: Удалить запись
+
+
+      sections:
+        actions:
+          create_new: Добавить секцию
+          reorder: Сортировать секции
+          reorder_done: Завершить сортировку
+        records:
+          title: Секции галереи
+          sorry_no_results: Извините! Результаты не найдены.
+          no_items_yet: Ни одной секции галереи еще не создано. Щелкните "Добавить секцию"
+            чтобы создать первую секцию галереи.
+        gallery_section:
+          view_live_html: View this gallery section live <br/><em>(opens in a new window)</em>
+          edit: Редактировать секцию
+          delete: Удалить секцию
+          
+  gallery:
+    sections:
+      show:
+        other: Other Gallery Sections

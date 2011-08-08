@@ -1,0 +1,27 @@
+---
+en:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    gallery_entries:
+      title: Gallery Entries
+  admin:
+    gallery_entries:
+      actions:
+        create_new: Add New Gallery Entry
+        reorder: Reorder Gallery Entries
+        reorder_done: Done Reordering Gallery Entries
+      records:
+        title: Gallery Entries
+        sorry_no_results: Sorry! There are no results found.
+        no_items_yet: There are no Gallery Entries yet. Click "Add New Gallery Entry"
+          to add your first gallery entry.
+      gallery_entry:
+        view_live_html: View this gallery entry live <br/><em>(opens in a new window)</em>
+        edit: Edit this gallery entry
+        delete: Remove this gallery entry forever
+  gallery_entries:
+    show:
+      other: Other Gallery Entries

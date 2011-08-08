@@ -34,8 +34,8 @@ gem 'sqlite3'
 # Anything you put in here will be overridden when the app gets updated.
 
 gem 'refinerycms',              '~> 1.0.3'
-gem 'refinerycms-page-images', '~> 1.0'
-gem 'refinerycms-blog', '~> 1.6.1'
+gem 'haml'
+gem 'sass'
 
 group :development, :test do
   # To use refinerycms-testing, uncomment it (if it's commented out) and run 'bundle install'
@@ -61,5 +61,4 @@ gem 'refinerycms-i18n',         '~> 1.0.0'
 
 # END USER DEFINED
 
-gem 'refinerycms-galleries', '1.0', :path => 'vendor/engines'
-gem 'refinerycms-galleries', '1.0', :path => 'vendor/engines'
+gem 'refinerycms-gallery', '1.0', :path => 'vendor/engines'

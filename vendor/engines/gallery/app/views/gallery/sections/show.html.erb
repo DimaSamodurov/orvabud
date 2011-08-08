@@ -1,0 +1,21 @@
+<% content_for :body_content_title, @section.name %>
+
+<% content_for :body_content_left do %>
+  <% if @gallery_entries.any? %>
+    <section id="gallery_entries">
+      <%= render :partial => "/gallery/shared/entry", :collection => @gallery_entries %>
+      <%= will_paginate @gallery_entries %>
+    </section>
+  <% else %>
+    <p>
+      <%= t('.no_entries') %>
+    </p>
+  <% end %>
+<% end %>
+
+<% content_for :body_content_right do %>
+  <%= render :partial => "/gallery/shared/sections" %>
+<% end %>
+
+<%= render :partial => "/shared/content_page" %>
+<% content_for :stylesheets, stylesheet_link_tag('refinerycms-gallery') %>

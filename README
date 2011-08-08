@@ -2,3 +2,17 @@ h1. ORVABUD
 
 Simple CMS site for a building company.
 Based on Refinery CMS.
+
+h1. Development tips:
+
+h3. Add new model to hallety
+
+    rails g refinery_engine gallery_section name:string gallery:engine
+
+
+h3. To update migrations
+
+rollback and remove appropriate migrations from root app, then update migrations in vendor, then run to copy migrations again to root:
+
+    rails generate refinerycms_gallery gallery_entries gallery_sections
+    rake db:migrate

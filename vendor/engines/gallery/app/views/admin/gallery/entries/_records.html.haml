@@ -1,0 +1,7 @@
+- if @sections.any?
+  .pagination_container
+    = render :partial => 'gallery_entries'
+- else
+  %p
+    %strong
+      = t('.no_items_yet')

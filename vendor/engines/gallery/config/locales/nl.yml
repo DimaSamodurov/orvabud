@@ -1,0 +1,24 @@
+---
+nl:
+  plugins:
+    gallery_entries:
+      title: Gallery Entries
+  admin:
+    gallery_entries:
+      actions:
+        create_new: Maak een nieuwe Gallery Entry
+        reorder: Wijzig de volgorde van de Gallery Entries
+        reorder_done: Klaar met het wijzingen van de volgorde van de Gallery Entries
+      records:
+        title: Gallery Entries
+        sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+        no_items_yet: Er zijn nog geen Gallery Entries. Druk op 'Maak een nieuwe Gallery
+          Entry' om de eerste aan te maken.
+      gallery_entry:
+        view_live_html: Bekijk deze gallery entry op de website <br/><em>(opent een
+          nieuw venster)</em>
+        edit: Bewerk deze gallery entry
+        delete: Verwijder deze gallery entry voor eeuwig
+  gallery_entries:
+    show:
+      other: Andere Gallery Entries

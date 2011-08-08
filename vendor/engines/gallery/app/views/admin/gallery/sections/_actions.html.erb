@@ -1,0 +1,28 @@
+<ul>
+  <% if Admin::Gallery::SectionsController.searchable? %>
+    <li>
+      <%= render :partial => "/shared/admin/search",
+                  :locals => {
+                    :url => admin_gallery_sections_path
+                  } %>
+    </li>
+  <% end %>
+  <li>
+    <%= link_to t('.create_new'), new_admin_gallery_section_path,
+                 :class => "add_icon" %>
+  </li>
+<% if !searching? and Admin::Gallery::SectionsController.sortable? and GallerySection.count > 1 %>
+  <li>
+    <%= link_to t('.reorder', :what => "Gallery Sections"),
+                 admin_gallery_sections_path,
+                 :id => "reorder_action",
+                 :class => "reorder_icon" %>
+
+    <%= link_to t('.reorder_done', :what => "Gallery Sections"),
+                 admin_gallery_sections_path,
+                 :id => "reorder_action_done",
+                 :style => "display: none;",
+                 :class => "reorder_icon" %>
+  </li>
+<% end %>
+</ul>

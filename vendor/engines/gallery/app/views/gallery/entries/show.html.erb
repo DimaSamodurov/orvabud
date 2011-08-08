@@ -1,0 +1,33 @@
+<% content_for :body_content_title do %>
+  <%= @gallery_entry.title %>
+<% end %>
+
+<% content_for :body_content_left do %>
+  <section>
+    <h1>Image</h1>
+    <p>
+      <%= image_fu @gallery_entry.image, nil %>
+    </p>
+  </section>
+  <section>
+    <h1>Title</h1>
+    <p>
+      <%=raw @gallery_entry.title %>
+    </p>
+  </section>
+<% end %>
+
+<% content_for :body_content_right do %>
+  <aside>
+    <h2><%= t('.other') %></h2>
+    <ul id="gallery_entries">
+      <% @gallery_entries.each do |gallery_entry| %>
+        <li>
+          <%= link_to gallery_entry.title, gallery_entry_path(gallery_entry) %>
+        </li>
+      <% end %>
+    </ul>
+  </aside>
+<% end %>
+
+<%= render :partial => "/shared/content_page" %>

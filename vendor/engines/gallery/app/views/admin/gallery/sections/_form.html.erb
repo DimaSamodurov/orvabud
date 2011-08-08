@@ -1,0 +1,19 @@
+<%= form_for [:admin, @gallery_section] do |f| -%>
+  <%= render :partial => "/shared/admin/error_messages", :locals => {
+          :object => @gallery_section,
+          :include_object_name => true
+        } %>
+  
+  <div class='field'>
+    <%= f.label :name -%>
+    <%= f.text_field :name, :class => 'larger widest'  -%>
+  </div>
+  
+  <%= render :partial => "/shared/admin/form_actions",
+              :locals => {
+                :f => f,
+                :continue_editing => false,
+                :delete_title => t('delete', :scope => 'admin.gallery_sections.gallery_section'),
+                :delete_confirmation => t('message', :scope => 'shared.admin.delete', :title => @gallery_section.name)
+              } %>
+<% end -%>

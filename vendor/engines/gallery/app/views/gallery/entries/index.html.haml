@@ -1,0 +1,16 @@
+= content_for :body_content_left do
+  %ul{:id=>"gallery_entries"}
+    - if @sections.any?
+      .pagination_container.thumbs
+        - @sections.each do |section|
+          %h2= section.name
+          - section.gallery_entries.each do |gallery_entry|
+            = image_fu gallery_entry.image, "200x200"
+
+    - else
+      %p
+        %strong
+          = t('.no_items_yet')
+
+
+= render :partial => "/shared/content_page"

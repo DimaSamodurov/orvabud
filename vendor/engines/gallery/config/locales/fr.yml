@@ -1,0 +1,29 @@
+---
+fr:
+  shared:
+    admin:
+      image_picker:
+        image: image
+  plugins:
+    gallery_entries:
+      title: Gallery Entries
+  admin:
+    gallery_entries:
+      actions:
+        create_new: Créer un(e) nouve(au/l/lle) Gallery Entry
+        reorder: Réordonner les Gallery Entries
+        reorder_done: Fin de réordonnancement des Gallery Entries
+      records:
+        title: Gallery Entries
+        sorry_no_results: Désolé ! Aucun résultat.
+        no_items_yet: Il n'y a actuellement aucun(e) Gallery Entry. Cliquer sur "Créer
+          un(e) nouve(au/l/lle) Gallery Entry" pour créer votre premi(er/ère) gallery
+          entry.
+      gallery_entry:
+        view_live_html: Voir ce(t/tte) gallery entry <br/><em>(Ouvre une nouvelle
+          fenêtre)</em>
+        edit: Modifier ce(t/tte) gallery entry
+        delete: Supprimer définitivement ce(t/tte) gallery entry
+  gallery_entries:
+    show:
+      other: Autres Gallery Entries
