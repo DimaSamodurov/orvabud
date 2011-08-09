@@ -1,0 +1,22 @@
+Admin+dev part:
+Estimate - 1hr
+Purchase Domain name+hosting setup(user, git, rvm, apache, passenger, rails) - 3hr
+Create google doc prices, embed docs into site, provide link for downloading word format - 3hr
+Email settings + Email form - 2hr
+Create admin part for Galleries - 3hr
+Enter site content - 2hr
+Apply css styles got from visual designer - 2hr
+
+==
+
+Visual design:
+
+Design site layout - 6hr:
+  Header with Background and Logo to be displayed on each page of the site.
+  Menu tabs style (pure CSS styles without graphic or simple background graphics for active/passive elements).
+  Body fonts: H1, H2, H3, UL, OL Fonts and colors.
+  Simple Footer: single color background with text ' "ОрВа" - буд, 2011" '
+Create Main page animation - slideshow of several photos. Either flash or animated gif is ok. - 4hr
+Create simple layout for Certificate and animation block. 2hr
+Create layout for galleries. 2hr
+Misc - 2hr
