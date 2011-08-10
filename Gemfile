@@ -36,6 +36,7 @@ gem 'sqlite3'
 gem 'refinerycms',              '~> 1.0.3'
 gem 'haml'
 gem 'sass'
+gem 'formtastic'
 
 group :development, :test do
   # To use refinerycms-testing, uncomment it (if it's commented out) and run 'bundle install'

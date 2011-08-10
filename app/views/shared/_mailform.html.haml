@@ -1,2 +1,11 @@
 #mailform
-  Mail here
+
+  = semantic_form_for :feedback, :url => "/feedback" do |form|
+
+    = form.inputs do
+      = form.input :email
+      = form.input :name
+      = form.input :message, :as => :text, :input_html => { :rows => 4}
+
+    = form.buttons do
+      = form.commit_button :label => t("submit")
