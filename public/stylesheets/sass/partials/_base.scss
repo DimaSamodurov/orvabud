@@ -68,3 +68,16 @@ body {
     }
 }
 
+footer{
+    height: 23px;
+
+    background-image:url('/images/header_gradient.jpg');
+    background-repeat:repeat-x;
+
+    color: white;
+    p{
+        position: relative;
+        left: 45%;
+        padding: 2px 0 0 0;
+    }
+}
