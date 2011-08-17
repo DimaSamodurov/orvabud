@@ -4,9 +4,9 @@
       .pagination_container.thumbs
         - @sections.each do |section|
           %h2= section.name
-          - section.gallery_entries.each do |gallery_entry|
-            = image_fu gallery_entry.image, "200x200"
-
+          - section.gallery_entries.each do |entry|
+            - if entry.image.present?
+              = link_to image_fu(entry.image, "200x200"), entry.image.url, rel:"section-#{section.id}"
     - else
       %p
         %strong
@@ -14,3 +14,20 @@
 
 
 = render :partial => "/shared/content_page"
+
+= content_for :stylesheets do
+  = stylesheet_link_tag('/fancybox/jquery.fancybox-1.3.4.css')
+
+= content_for :javascripts do
+  = jquery_include_tags :caching => 'js_caching'
+  = javascript_include_tag('/fancybox/jquery.fancybox-1.3.4.pack.js')
+  :javascript
+    jQuery(function($) {
+
+        // Apply fancybox to the Mini-Gallery
+        $("#gallery_entries").find("a").fancybox();
+
+    });
+
+
+
