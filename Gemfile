@@ -33,6 +33,7 @@ gem 'sqlite3'
 # REFINERY CMS ================================================================
 # Anything you put in here will be overridden when the app gets updated.
 
+#gem 'psych', :git => 'https://github.com/tenderlove/psych.git'
 gem 'refinerycms',              '~> 1.0.3'
 gem 'haml'
 gem 'sass'
