@@ -51,7 +51,8 @@ namespace :deploy do
 
   desc "Symlink shared resources on each release"
   task :symlink_shared, :roles => :app do
-    #run "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml"
+    run "ln -nfs #{shared_path}/db/production.sqlite3 #{release_path}/db/production.sqlite3"
+    run "ln -nfs #{shared_path}/tmp/dragonfly #{release_path}/tmp/dragonfly"    
   end
 end
 
