@@ -25,7 +25,7 @@ protected
   end
 
   def find_page
-    @page = Page.where(:link_url => "/gallery_entries").first
+    @page = Page.where(:link_url => "/gallery").first
   end
 
 end

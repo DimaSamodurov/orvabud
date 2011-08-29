@@ -1,16 +1,9 @@
-function setIframeHeight(iframeName) {
-//var iframeWin = window.frames[iframeName];
-var iframeEl = document.getElementById? document.getElementById(iframeName): document.all? document.all[iframeName]: null;
-if (iframeEl) {
-iframeEl.style.height = "auto"; // helps resize (for some) if new doc shorter than previous
-//var docHt = getDocHeight(iframeWin.document);
-// need to add to height to be sure it will all show
-var h = alertSize();
-var new_h = (h-148);
-iframeEl.style.height = new_h + "px";
-//alertSize();
+var app = {}
+
+app.thankYou = function(selector, message){
+    $(selector).append(message);
 }
-}
+
 
 function alertSize() {
 var myHeight = 0;
@@ -28,5 +21,20 @@ myHeight = document.body.clientHeight;
 return myHeight;
 }
 
-
 // <body onload="setIframeHeight('ifrm');">
+
+
+function setIframeHeight(iframeName) {
+    var iframeEl = document.getElementById? document.getElementById(iframeName): document.all? document.all[iframeName]: null;
+    if (iframeEl) {
+        iframeEl.style.height = "auto"; // helps resize (for some) if new doc shorter than previous
+//var docHt = getDocHeight(iframeWin.document);
+// need to add to height to be sure it will all show
+        var h = alertSize();
+        var new_h = (h-148);
+        iframeEl.style.height = new_h + "px";
+//alertSize();
+    }
+}
+//var iframeWin = window.frames[iframeName];
+

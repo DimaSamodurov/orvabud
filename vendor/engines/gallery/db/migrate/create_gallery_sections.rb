@@ -3,6 +3,7 @@ class CreateGallerySections < ActiveRecord::Migration
   def self.up
     create_table :gallery_sections do |t|
       t.string :name
+      t.text    :content
       t.boolean :active
       t.integer :position
 

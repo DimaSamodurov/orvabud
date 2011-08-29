@@ -1,0 +1,17 @@
+development:
+  :address: "localhost"
+  :port: 25
+  :domain: "orvabud.com"
+
+test:
+  <<: *development
+
+production:
+  :address: "smtp.gmail.com"
+  :port: 587
+  :domain: "orvabud.com"
+  :authentication: "plain"
+  :user_name: "orvabud"
+  :password: "orvabudmail"
+  :enable_starttls_auto: true
+  

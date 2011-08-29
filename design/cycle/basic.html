@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>JQuery Cycle Plugin - Basic Demo</title>
+<style type="text/css">
+.slideshow { height: 232px; width: 232px; margin: auto }
+.slideshow img { padding: 15px; border: 1px solid #ccc; background-color: #eee; }
+</style>
+<!-- include jQuery library -->
+<script type="text/javascript" src="basic_files/jquery.js"></script>
+<!-- include Cycle plugin -->
+<script type="text/javascript" src="basic_files/jquery_002.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.slideshow').cycle({
+		fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+	});
+});
+</script>
+</head>
+<body>
+	<div style="position: relative;" class="slideshow">
+		<img style="position: absolute; top: 0px; left: 0px; display: block; z-index: 6; opacity: 1; width: 200px; height: 200px;" src="basic_files/beach1.jpg" height="200" width="200">
+		<img style="position: absolute; top: 0px; left: 0px; display: none; z-index: 5; opacity: 0; width: 200px; height: 200px;" src="basic_files/beach2.jpg" height="200" width="200">
+		<img style="position: absolute; top: 0px; left: 0px; display: none; z-index: 5; opacity: 0; width: 200px; height: 200px;" src="basic_files/beach3.jpg" height="200" width="200">
+		<img style="position: absolute; top: 0px; left: 0px; display: none; z-index: 5; opacity: 0; width: 200px; height: 200px;" src="basic_files/beach4.jpg" height="200" width="200">
+		<img style="position: absolute; top: 0px; left: 0px; display: none; z-index: 5; opacity: 0; width: 200px; height: 200px;" src="basic_files/beach5.jpg" height="200" width="200">
+	</div>
+
+
+</body></html>

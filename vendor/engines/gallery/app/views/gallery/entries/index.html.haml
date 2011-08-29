@@ -1,9 +1,13 @@
-= content_for :body_content_left do
+%section
+  =raw @page.content_for(:body)
+
+%section
   %ul{:id=>"gallery_entries"}
     - if @sections.any?
       .pagination_container.thumbs
         - @sections.each do |section|
           %h2= section.name
+
           - section.gallery_entries.each do |entry|
             - if entry.image.present?
               = link_to image_fu(entry.image, "200x200"), entry.image.url, rel:"section-#{section.id}"
@@ -12,18 +16,19 @@
         %strong
           = t('.no_items_yet')
 
-
-= render :partial => "/shared/content_page"
+%section
+  =raw @page.content_for(:price)
 
 = content_for :stylesheets do
-  = stylesheet_link_tag('/fancybox/jquery.fancybox-1.3.4.css')
+  =# stylesheet_link_tag('/fancybox/jquery.fancybox-1.3.4.css')
+
+= content_for :javascript_libraries do
+  =# jquery_include_tags :caching => 'js_caching'
+  =# javascript_include_tag('/fancybox/jquery.fancybox-1.3.4.pack.js')
 
 = content_for :javascripts do
-  = jquery_include_tags :caching => 'js_caching'
-  = javascript_include_tag('/fancybox/jquery.fancybox-1.3.4.pack.js')
   :javascript
     jQuery(function($) {
-
         // Apply fancybox to the Mini-Gallery
         $("#gallery_entries").find("a").fancybox();
 

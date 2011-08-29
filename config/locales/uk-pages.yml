@@ -1,19 +1,19 @@
 uk:
   plugins:
     refinery_pages:
-      title: Страницы
+      title: Сторінки
       article: feminine
-      description: Управление страницами с содежимым
+      description: Управління сторіноками та вмістом
   activerecord:
     models:
-      page: страница
+      page: сторінка
     attributes:
       page:
         title: Заголовок
   admin:
     dashboard:
       recent_activity:
-        empty: Пустой
+        empty: Порожній
     pages_dialogs:
       page_link:
         link_to_this_page: Ссылка на эту страницу
@@ -54,7 +54,7 @@ uk:
         delete_content_section: Удалить колонку
       form_advanced_options:
         toggle_advanced_options: Настройка мета-тегов, меню и др.
-        page_options: Настройка страницы
+        page_options: Настройка Сторінки
         parent_page: Родительская страница
         advanced_options: Дополнительная настройка
         custom_title: Другой заголовок
@@ -65,7 +65,7 @@ uk:
         show_in_menu_description: Отображать эту страницу в меню сайта
         show_in_menu_help: "Снимите отметку, если вы хотите убрать страницу из меню вашего сайта."
         save_as_draft: Сохранить как черновик
-        skip_to_first_child: Пропуск страницы верхнего уровня
+        skip_to_first_child: Пропуск Сторінки верхнего уровня
         skip_to_first_child_label: Перенаправлять посетителей на первую страницу нижнего уровня
         skip_to_first_child_help: "Эта опция делает страницу связаннной с первой подстраницей. Это может быть полезно при группировке страниц."
         link_url: Переадресовывать на другой сайт или страницу

@@ -5,4 +5,8 @@ class GallerySection < ActiveRecord::Base
   has_many :gallery_entries, :order => 'position'
 
   default_scope order('position')
+
+  def self.active
+    where('active' => true)
+  end
 end

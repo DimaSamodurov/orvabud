@@ -36,6 +36,7 @@ gem 'sqlite3'
 gem 'refinerycms',              '~> 1.0.3'
 gem 'haml'
 gem 'sass'
+gem 'compass'
 gem 'formtastic'
 
 group :development, :test do
@@ -63,3 +64,5 @@ gem 'refinerycms-i18n',         '~> 1.0.0'
 # END USER DEFINED
 
 gem 'refinerycms-gallery', '1.0', :path => 'vendor/engines'
+gem 'refinerycms-page-images', '~> 1.0'
+gem 'refinerycms-portfolio', '~> 0.9.9'

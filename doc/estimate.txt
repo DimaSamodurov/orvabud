@@ -20,3 +20,7 @@ Create Main page animation - slideshow of several photos. Either flash or animat
 Create simple layout for Certificate and animation block. 2hr
 Create layout for galleries. 2hr
 Misc - 2hr
+
+=
++ Deployment db with pictures.. 1hr
++ Content entry 4 hrs (each page, price, etc.. need to be counted).

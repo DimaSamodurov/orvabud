@@ -1,0 +1,73 @@
+#showcase{
+    color: white;
+    background: #07557c;
+    margin: 3px 0;
+    padding: 20px 15px;
+    #slides{
+        float:left;
+        height: 316px;
+        width: 416px;
+        background: url("/images/showcase-bg.png") no-repeat;
+        img{
+            margin: 8px 7px;
+        }
+    }
+    #license{
+        float:right;
+        width: 530px;
+        padding: 5px 0;
+        #license-link{
+            float: right;
+            padding: 0 5px;
+        }
+    }
+}
+
+#contacts{
+    height: 109px;
+    background: url("/images/contacts-bg.png") no-repeat;
+    padding: 10px;
+    color: #07557c;
+
+    table{
+        line-height: 1em;
+        font-size: 1em;
+        border: 0;
+        border-collapse:collapse;
+        th, td{
+            border: 0;
+            background: transpareng;
+        }
+        th{
+            text-align: left;
+            width: 150px;
+        }
+    }
+}
+
+#mailform{
+    fieldset{
+        border: 0;
+        ol, ul, li{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        label{
+            width: 100px;
+            margin-right: 20px;
+        }
+        input{
+            margin-left: 20px;
+            width: 300px;
+        }
+        textarea{
+            width: 600px;
+
+        }
+        input.submit{
+            margin-left: 0px;
+            width: 150px;
+        }
+    }
+}

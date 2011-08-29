@@ -1,3 +1,13 @@
 #license
-  License
-  Image Rotator
+  .text
+    = link_to image_tag('/images/license-small.jpg', :id => "license-image"), '/images/license.jpg', :id => "license-link"
+    =# link_to image_fu(entry.image, "200x200"), entry.image.url, rel:"section-#{section.id}"
+
+    =raw @page.content_for(:intro)
+
+= content_for :javascripts do
+  :javascript
+    jQuery(function($) {
+        // Apply fancybox to the Mini-Gallery
+        $("a#license-link").fancybox();
+    });

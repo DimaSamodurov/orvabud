@@ -1,0 +1,19 @@
+#slides
+  .container
+    - (0..2).each do |i|
+      = image_tag "showcase/#{i}.jpg", :width => 401, :height => 300
+
+= content_for :after_javascript_libraries do
+  = javascript_include_tag 'jquery.cycle.all'
+
+= content_for :javascripts do
+  :javascript
+    jQuery(function($) {
+      $("#slides .container").cycle({
+        fx:    'fade',
+        pause: 1000,
+        speed:  2500,
+      });
+    });
+
+
