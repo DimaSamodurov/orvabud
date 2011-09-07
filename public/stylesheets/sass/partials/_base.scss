@@ -16,7 +16,7 @@ body {
   width: 100%;
   background: white;
   color: #333;
-  padding: 20px;
+  padding: 0;
 }
 
 #menu {
@@ -81,20 +81,16 @@ footer{
         left: 45%;
         padding: 2px 0 0 0;
     }
+
+    .developer{
+        position: relative;
+        left: 37%;
+        font-size: 0.5em;
+        color: #fff;
+        text-decoration: none;
+    }
 }
 
-table.price {
-    tr:nth-child(even) {
-      background: white;
-
-      td:nth-child(odd) {
-      background: #d2e0eb;
-    }
-    }
-    tr:nth-child(odd) {
-      background: #d2e0eb;
-    }
-    td{
-        padding: 0 5px;
-    }
+#page{
+    padding: 0;
 }

@@ -1,0 +1,15 @@
+table.price {
+    tr:nth-child(even) {
+      background: white;
+
+      td:nth-child(odd) {
+      background: #d2e0eb;
+    }
+    }
+    tr:nth-child(odd) {
+      background: #d2e0eb;
+    }
+    td{
+        padding: 0 5px;
+    }
+}

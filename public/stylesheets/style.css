@@ -17,7 +17,7 @@ body {
   width: 100%;
   background: white;
   color: #333;
-  padding: 20px;
+  padding: 0;
 }
 
 /* line 22, sass/partials/_base.scss */
@@ -86,22 +86,18 @@ footer p {
   left: 45%;
   padding: 2px 0 0 0;
 }
+/* line 85, sass/partials/_base.scss */
+footer .developer {
+  position: relative;
+  left: 37%;
+  font-size: 0.5em;
+  color: #fff;
+  text-decoration: none;
+}
 
-/* line 87, sass/partials/_base.scss */
-table.price tr:nth-child(even) {
-  background: white;
-}
-/* line 90, sass/partials/_base.scss */
-table.price tr:nth-child(even) td:nth-child(odd) {
-  background: #d2e0eb;
-}
 /* line 94, sass/partials/_base.scss */
-table.price tr:nth-child(odd) {
-  background: #d2e0eb;
-}
-/* line 97, sass/partials/_base.scss */
-table.price td {
-  padding: 0 5px;
+#page {
+  padding: 0;
 }
 
 /* line 1, sass/partials/_home.scss */
@@ -187,4 +183,21 @@ table.price td {
 #mailform fieldset input.submit {
   margin-left: 0px;
   width: 150px;
+}
+
+/* line 2, sass/partials/_tables.scss */
+table.price tr:nth-child(even) {
+  background: white;
+}
+/* line 5, sass/partials/_tables.scss */
+table.price tr:nth-child(even) td:nth-child(odd) {
+  background: #d2e0eb;
+}
+/* line 9, sass/partials/_tables.scss */
+table.price tr:nth-child(odd) {
+  background: #d2e0eb;
+}
+/* line 12, sass/partials/_tables.scss */
+table.price td {
+  padding: 0 5px;
 }
