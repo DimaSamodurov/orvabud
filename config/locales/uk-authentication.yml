@@ -1,27 +1,27 @@
 uk:
   plugins:
     refinery_users:
-      title: Пользователи
+      title: Користувачі
       article: masculine
   admin:
     users:
-      delete: Удалить этого пользователя навсегда
-      edit: Редактировать этого пользователя
+      delete: Знищити цього користувача
+      edit: Редагувати цього користувача
       update:
-        cannot_remove_user_plugin_from_current_user: "Нельзя отключить модуль «Пользователи» у самого себя."
+        cannot_remove_user_plugin_from_current_user: "Неможна відключити модуль «Користувачі» у самого себе."
       form:
-        blank_password_keeps_current: 'Оставьте поле пустым, если не хотите изменить пароль'
-        enable_all: включить все
+        blank_password_keeps_current: 'Залиште поле порожнім, якщо не хочете змінювати пароль'
+        enable_all: включити все
       actions:
-        create_new_user: Создать нового пользователя
+        create_new_user: Створити нового користувача
       user:
-        email_user: Написать эл. письмо этому пользователю
+        email_user: Написати листа цьому користувачу
         preview: '(%{who}) создан %{created_at}'
   sessions:
     new:
       hello_please_sign_in: 'Пожалуйста, войдите.'
-      sign_in: Войти
-      forgot_password: Я забыл свой пароль
+      sign_in: Увійти
+      forgot_password: Я забув свій пароль
   users:
     setup_website_name_html: "Для начала, назовите сайт. <a href='%{link}' name='%{title}'>Перейдите сюда</a>, чтобы отредактировать название сайта."
     new:

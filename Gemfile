@@ -66,4 +66,3 @@ gem 'refinerycms-i18n',         '~> 1.0.0'
 
 gem 'refinerycms-gallery', '1.0', :path => 'vendor/engines'
 gem 'refinerycms-page-images', '~> 1.0'
-gem 'refinerycms-portfolio', '~> 0.9.9'

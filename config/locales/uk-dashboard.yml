@@ -2,29 +2,29 @@ uk:
   plugins:
     refinery_dashboard:
       title: Сводка
-      description: Обзор последних действий в Refinery
+      description: Обзор останній дій у системі
   admin:
     dashboard:
       index:
-        quick_tasks: Быстрые задачи
+        quick_tasks: Швидкі дії
       actions:
-        add_a_new_page: Добавить новую страницу
-        update_a_page: Изменить страницу
-        upload_a_image: Загрузить изображение
-        upload_a_file: Загрузить файл
-        change_language: Сменить язык
-        see_home_page: Просмотреть домашнюю страницу
+        add_a_new_page: Додати нову сторінку
+        update_a_page: Змінити сторінку
+        upload_a_image: Завантажити зображення
+        upload_a_file: Завантажити файл
+        change_language: Змінити мову
+        see_home_page: Переглянути домашню сторінку
       recent_activity:
-        latest_activity: Последние действия
+        latest_activity: Останні дії
         latest_activity_message: "%{action} %{kind} «%{what}»"
       recent_inquiries:
-        latest_inquiries: Последние запросы
+        latest_inquiries: Останні запити
   updated:
-    'with_article "masculine"': Обновлен
-    'with_article "feminine"':  Обновлена
-    'with_article "neuter"':    Обновлено
+    'with_article "masculine"': Оновлений
+    'with_article "feminine"':  Оновлена
+    'with_article "neuter"':    Оновлено
   created:                      
-    'with_article "masculine"': Добавлен
-    'with_article "feminine"':  Добавлена
-    'with_article "neuter"':    Добавлено
+    'with_article "masculine"': Доданий
+    'with_article "feminine"':  Додана
+    'with_article "neuter"':    Додано
 

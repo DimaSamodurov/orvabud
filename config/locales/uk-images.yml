@@ -1,43 +1,43 @@
 uk:
   plugins:
     refinery_images:
-      title: Изображения
+      title: Зображення
       article: neuter
   activerecord:
     models:
-      image: изображение
+      image: зображення
     errors:
       models:
         image:
-          blank: Вы должны выбрать файл для загрузки
-          too_long: "Файлы должны быть меньше по размеру, чем %{count}"
-          incorrect_format: "Ваше изображение может быть только в форматах JPG, PNG или GIF"
+          blank: Виберіть файл для завантаження
+          too_long: Файл мають бути меньше по розміру, ніж %{count}
+          incorrect_format: Зображення може бути лише у форматах JPG, PNG або GIF
   admin:
     images:
-      delete: Удалить это изображение навсегда
-      edit: Редактировать это изображение
+      delete: Знищити це зображення
+      edit: Редагувати це зображення
       form:
-        image: Изображение
-        use_current_image: Использовать текущее изображение
+        image: Зображення
+        use_current_image: Використати поточне зображення
         or: или
-        replace_image: " заменить его этим"
-        current_image: Текущее изображение
-        maximum_image_size: "Максимальный размер изображения — %{megabytes} МБ."
+        replace_image: " замінити його цим"
+        current_image: Поточне зображення
+        maximum_image_size: Максимальний розмір зображення — %{megabytes} МБ.
       actions:
-        create_new_image: Создать новое изображение
+        create_new_image: Створити нове зображення
       records:
-        no_images_yet: "Изображений пока что нет. Нажмите «Создать новое изображение», чтобы добавить ваше первое изображение."
+        no_images_yet: Зображень поки що немає. Натисніть «Створити нове зображення», щоби додати перше.
       index:
         view:
-          switch_to: Показать %{view_name}
+          switch_to: Показати %{view_name}
           list: списком
-          grid: сеткой
+          grid: сіткою
       grid_view:
-        view_live_html: Показать это изображение <br/><em>Откроется в новом окне</em>
+        view_live_html: Показати це зображення <br/><em>Відкриється у новому вікні</em>
       existing_image:
-        button_text: Вставить
-        resize_image: Изменить размер изображения?
-        size: Размер
+        button_text: Вставити
+        resize_image: Змінити розмір изображения?
+        size: Розмір
       insert:
-        existing_image: Существующее изображение
-        new_image: Новое изображение
+        existing_image: Існуюче зображення
+        new_image: Нове зображення

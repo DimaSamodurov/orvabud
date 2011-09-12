@@ -51,7 +51,7 @@ ru:
         name: Add File
         current: Current File     
       search:
-        button_text: Поиск
+        button_text: Пошук
         results_for: "Результаты поиска для «%{query}»"
         no_results: Ничего не найдено
       delete:
@@ -61,9 +61,9 @@ ru:
       help: help
     message:
       close: Закрити
-      close_this_message: Закрити это сообщение
+      close_this_message: Закрити це повідомлення
     draft_page_message:
-      not_live: This page is NOT live for public viewing.
+      not_live: Ця сторінка недоступна для публічного перегляду.
     footer:
       copyright: © %{site_name}, %{year}
   time:
