@@ -19,50 +19,50 @@ uk:
           cancel: "Відмінити"
 
         actions:
-          manage: Редактировать изображения
-          new: Добавить изображение
-          reorder: Сортировать
-          reorder_done: Завершить сортировку
+          manage: Редагувати зображення
+          new: Додати зображення
+          reorder: Сортувати
+          reorder_done: Завершити сортування
           sections:
-            title: Секции
-            manage: Редактировать секции
-            new: Создать новую секцию
+            title: Секції
+            manage: Редагувати секції
+            new: Додати нову секцію
           settings:
             title: Настройки
-            moderation: Модерирование
-            update_notified: Настроить уведомления
-            comments: Комментарии
+            moderation: Керування
+            update_notified: Настроїти повідомлення
+            comments: Коментарі
         form:
-          advanced_options: Дополнительные настройки
-          toggle_advanced_options: 'Нажмите, чтобы получить доступ к настройкам мета-тегов и меню'
-          save_as_draft: Сохранить как черновик
-          published_at: Дата публикации
+          advanced_options: Додаткові настройки
+          toggle_advanced_options: 'Натисність, щоби отримати доступ до мета-тегів і імен'
+          save_as_draft: Зберегти як чорнетку
+          published_at: Дата публикації
         index:
-          no_items_yet: 'Записи в блоге отстутствуют. Нажмите "%{create}", чтобы добавить первую запись.'
+          no_items_yet: 'Записи в галереї відсутні. Натисніть "%{create}", щоби додати перший елемент.'
         uncategorized:
-          no_items_yet: 'Записи вне секций отсутствуют.'
+          no_items_yet: 'Записи поза секціями відсутні.'
         entry:
-          view_live_html: Посмотреть запись на сайте <br/><em>(откроется в новом окне)</em>
-          edit: Редактировать запись
-          delete: Удалить запись
+          view_live_html: Переглянути на сайті <br/><em>(відкриється у новому вікні)</em>
+          edit: Редагувати
+          delete: Видалити
 
 
       sections:
         actions:
-          create_new: Добавить секцию
-          reorder: Сортировать секции
-          reorder_done: Завершить сортировку
+          create_new: Додати секцію
+          reorder: Сортувати секції
+          reorder_done: Завершити сортування
         records:
-          title: Секции галереи
-          sorry_no_results: Извините! Результаты не найдены.
-          no_items_yet: Ни одной секции галереи еще не создано. Щелкните "Добавить секцию"
-            чтобы создать первую секцию галереи.
+          title: Секції галереї
+          sorry_no_results: Нічого не знайдено.
+          no_items_yet: Жодної секції галереї ще не існує. Клацніть "Додати секцію"
+            щоби створити першу.
         gallery_section:
-          view_live_html: View this gallery section live <br/><em>(opens in a new window)</em>
-          edit: Редактировать секцию
-          delete: Удалить секцию
+          view_live_html: Переглянути секкію на сайті <br/><em>(відкриється у новому вікні)</em>
+          edit: Редагувати секцію
+          delete: Видалити секцію
           
   gallery:
     sections:
       show:
-        other: Other Gallery Sections
+        other: Інші секції

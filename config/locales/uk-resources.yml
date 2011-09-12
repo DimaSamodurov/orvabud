@@ -1,35 +1,35 @@
 uk:
   plugins:
     refinery_files:
-      title: Файлы
+      title: Файли
       article: masculine
   admin:
     resources:
-      delete: Удалить этот файл навсегда
-      edit: Редактировать этот файл
+      delete: Знищити цей файл
+      edit: Редагувати цей файл
       form:
-        download_current: Скачать текущий файл
+        download_current: Скачати поточний файл
         or: или
-        replace: " заменить его этим"
+        replace: " замінити його цим"
         maximum_file_size: "Максимальный размер файла — %{megabytes} МБ."
       resource:
-        download: "Скачать файл (%{size})"
+        download: "Скачати файл (%{size})"
       actions:
-        upload_new: Загрузить новый файл
+        upload_new: Завантажити новий файл
       records:
-        no_files_yet: "Здесь пока нет файлов. Нажмите «Загрузить новые файлы», чтобы добавить первый файл."
+        no_files_yet: "Тут поки що нема файлів. Натисність «Завантажити нові файли», щоби додати перший."
       insert:
-        existing: Существующий файл
-        new: Новый файл
-        no_files: Файлов нет.
+        existing: Існуючий файл
+        new: Новий файл
+        no_files: Файлів немає.
       existing_resource:
-        link_to_file: Поставить ссылку на этот файл
-        button_text: Вставить
+        link_to_file: Поставити посилання на цей файл
+        button_text: Вставити
   activerecord:
     models:
       resource: файл
     errors:
       models:
         resource:
-          blank: Вы должны выбрать файл для загрузки
-          too_long: "Файлы должны быть по размеру меньше чем %{count}"
+          blank: Ви маєте выбрать файл для загрузки
+          too_long: "Файли мають бути розміром меньше ніж %{count}"
