@@ -34,6 +34,7 @@ GEM
       activesupport (= 3.0.9)
     activesupport (3.0.9)
     acts_as_indexed (0.7.3)
+    archive-tar-minitar (0.5.2)
     arel (2.0.10)
     awesome_nested_set (2.0.1)
       activerecord (>= 3.0.0)
@@ -47,6 +48,7 @@ GEM
       net-ssh (>= 2.0.14)
       net-ssh-gateway (>= 1.1.0)
     chunky_png (1.2.1)
+    columnize (0.3.4)
     compass (0.11.5)
       chunky_png (~> 1.2)
       fssm (>= 0.2.7)
@@ -72,6 +74,8 @@ GEM
     haml (3.1.2)
     highline (1.6.2)
     i18n (0.5.0)
+    linecache19 (0.5.12)
+      ruby_core_source (>= 0.1.4)
     mail (2.2.19)
       activesupport (>= 2.3.6)
       i18n (>= 0.4.0)
@@ -162,6 +166,21 @@ GEM
       refinerycms-base (= 1.0.3)
     routing-filter (0.2.3)
       actionpack
+    ruby-debug-base19 (0.11.25)
+      columnize (>= 0.3.1)
+      linecache19 (>= 0.5.11)
+      ruby_core_source (>= 0.1.4)
+    ruby-debug-base19x (0.11.29)
+      columnize (>= 0.3.1)
+      linecache19 (>= 0.5.11)
+      rake (>= 0.8.1)
+      ruby_core_source (>= 0.1.4)
+    ruby-debug19 (0.11.6)
+      columnize (>= 0.3.1)
+      linecache19 (>= 0.5.11)
+      ruby-debug-base19 (>= 0.11.19)
+    ruby_core_source (0.1.5)
+      archive-tar-minitar (>= 0.5.2)
     sass (3.1.7)
     seo_meta (1.1.1)
       refinerycms-generators (~> 1.0.1)
@@ -187,5 +206,7 @@ DEPENDENCIES
   refinerycms-gallery (= 1.0)!
   refinerycms-i18n (~> 1.0.0)
   refinerycms-page-images (~> 1.0)
+  ruby-debug-base19x
+  ruby-debug19
   sass
   sqlite3
