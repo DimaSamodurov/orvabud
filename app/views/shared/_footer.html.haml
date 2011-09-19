@@ -1,3 +1,4 @@
-%p
+%span.copyright
   = t('.copyright', :year => Time.now.year, :site_name => RefinerySetting.find_or_set(:site_name, "Company Name"))
+%span.developer
   = link_to 'Розробник', 'http://linkdedin.com/dimasamodurov', :class => 'developer'

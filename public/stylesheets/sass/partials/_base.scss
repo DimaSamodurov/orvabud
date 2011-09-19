@@ -76,7 +76,8 @@ footer{
     background-repeat:repeat-x;
 
     color: white;
-    p{
+
+    .copyright{
         position: relative;
         left: 45%;
         padding: 2px 0 0 0;
@@ -84,8 +85,8 @@ footer{
 
     .developer{
         position: relative;
-        left: 37%;
-        font-size: 0.5em;
+        left: 40%;
+        font-size: 0.7em;
         color: #fff;
         text-decoration: none;
     }
