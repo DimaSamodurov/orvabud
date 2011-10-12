@@ -95,3 +95,13 @@ footer{
 #page{
     padding: 0;
 }
+
+.blame{
+    width: 100%;
+    position: absolute;
+
+    .container{
+        width: 650px;
+        padding-left: 250px;
+    }
+}
