@@ -1,14 +1,14 @@
 # RVM bootstrap
-$:.unshift(File.expand_path("~/.rvm/lib"))
+# $:.unshift(File.expand_path("~/.rvm/lib"))
 require 'rvm/capistrano'
 set :rvm_ruby_string, '1.9.2'
 # set :rvm_type, :user # uncomment if you use have rvm installed in user's home dir
 
 # main details
 set :application, "orvabud"
-role :web, "orvabud.com"
-role :app, "orvabud.com"
-role :db,  "orvabud.com", :primary => true
+role :web, "173.203.82.51"
+role :app, "173.203.82.51"
+role :db,  "173.203.82.51", :primary => true
 
 # server details
 default_run_options[:pty] = true  # Must be set for the password prompt from git to work
@@ -37,11 +37,11 @@ depend :remote, :gem, "bundler", ">=1.0.0"
 # tasks
 namespace :deploy do
   task :start, :roles => :app do
-    run "sudo /etc/init.d/nginx start"
+    run "sudo apache2ctl restart"
   end
 
   task :stop, :roles => :app do
-    run "sudo /etc/init.d/nginx stop"
+    run "sudo apache2ctl stop"
   end
 
   desc "Restart Application"

@@ -46,8 +46,9 @@ group :development, :test do
   # Finally, run 'rake' to run the tests.
   # gem 'refinerycms-testing',    '~> 1.0.1'
   gem 'capistrano'
-  gem 'ruby-debug-base19x', :require => 'ruby-debug-base'
-  gem 'ruby-debug19', :require => 'ruby-debug'
+#  gem 'ruby-debug-base19x', :require => 'ruby-debug-base'
+#  gem 'ruby-debug19', :require => 'ruby-debug'
+  gem 'pry'
 end
 
 # END REFINERY CMS ============================================================
