@@ -16,3 +16,9 @@ rollback and remove appropriate migrations from root app, then update migrations
 
     rails generate refinerycms_gallery gallery_entries gallery_sections
     rake db:migrate
+
+h2. Production installations
+
+Install imagemagick to enable images:
+
+    sudo apt-get install imagemagick
