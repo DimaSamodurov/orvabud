@@ -1,7 +1,9 @@
 # RVM bootstrap
 # $:.unshift(File.expand_path("~/.rvm/lib"))
-require 'rvm/capistrano'
-set :rvm_ruby_string, '1.9.2'
+#require 'rvm/capistrano'
+require "bundler/capistrano"
+
+#set :rvm_ruby_string, '1.9.2'
 # set :rvm_type, :user # uncomment if you use have rvm installed in user's home dir
 
 # main details
@@ -13,7 +15,7 @@ role :db,  "173.203.82.51", :primary => true
 # server details
 default_run_options[:pty] = true  # Must be set for the password prompt from git to work
 
-#ssh_options[:forward_agent] = true
+ssh_options[:forward_agent] = true
 set :deploy_to, "/var/www/orvabud"
 set :deploy_via, :remote_cache
 set :user, "dima"

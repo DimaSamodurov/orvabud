@@ -7,7 +7,7 @@
       =# form.input :name
       = form.input :message, :as => :text, label: "Будьласка, коротко опишіть замовлення а також контакт для зв’язку із Вами.", :input_html => { :rows => 4 }
 
-    = form.buttons do
-      = form.commit_button :label => t("submit")
+    = form.actions do
+      = form.action :submit, as: 'button', label: t("submit")
 
 #thankyou
